@@ -1,0 +1,426 @@
+@font-face {
+    font-family: Gun;
+    src: url('../fonts/Low-Gun-Screen-Bold-Expanded.ttf.woff');
+}
+
+:root{
+    --grisFondo: #3f3f3f;
+    --grisClaro: #E9ECF0;
+    --blancoLetra: #E7E7E7;
+    --lilaLogo: #7A63FF;
+    --lilaFocus: #9380fa;
+    --negro: #000;
+    --fontTitulos: Gun
+}
+
+.posision-caru{
+    margin-top:60px;
+}
+
+.franjaTransparente{
+    background-color:rgba(0, 0, 0, 0.5);
+    /*opacity: 0.5;*/
+}
+
+.tituloBanner{
+    font-family: var(--fontTitulos);
+    font-size: 55px;
+}
+
+.iconosCentrados{
+    display: flex;
+    justify-content: center;
+}
+
+.marginRight0px{
+    margin-right: 0px;
+}
+
+.paddingLeft{
+    padding-left: 140px;
+}
+
+.headerNavigation{
+    background-color: var(--negro);
+}
+
+.itemsMenu{
+    color: var(--blancoLetra);
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contenedorImagen{
+    position: relative;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.centrado{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.imgInicio{
+    width: 100%;
+    height: auto;
+}
+
+a.myanchor:before{
+    display: block;
+    content: " ";
+    margin-top: -38px;
+    height: 60px;
+    visibility: hidden;
+}
+
+.myanchorServicios:before{
+    display: block;
+    content: " ";
+    margin-top: -30px;
+    height: 40px;
+    visibility: hidden;
+}
+
+.anchorContacto{
+    display: block;
+    content: " ";
+    height: 60px;
+    visibility: hidden;
+}
+
+.logoCabecera{
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+    margin-left: 80px;
+}
+
+.descrip-inicio{
+    font-size: 25px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: var(--blancoLetra);
+}
+
+.containertituloNosotros{
+    margin-top: 25px;
+    margin-left: 80px;
+    justify-content: left;
+    text-align: left;
+}
+
+.tituloNegro, .tituloServicios{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: var(--grisFondo);
+    margin-top: 55px;
+}
+
+.tituloServicios{
+    color: var(--blancoLetra);
+    margin-top: 15px;
+}
+
+.margintop30{
+    margin-top: 20px;
+}
+
+.margintop50{
+    margin-top: 50px;
+}
+
+.containerCuerpo, .containerImagenesServicios{
+    /*justify-content: center;
+    text-align: left;
+    align-items: center;*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerRedes{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.containerImagenesServicios{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.containerHeaderNav{
+    justify-content: right;
+    text-align: right;
+    align-items: flex-end;
+}
+
+.textoCuerpo, .textoCuerpo2, .textoCuerpoServicios, .textoContacto {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: var(--grisFondo);
+    line-height: 40px;
+    
+}
+
+.textoContacto{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.linkRedes, .linkRedesFooter{
+    text-decoration: none;
+}
+
+.textoCuerpoServicios{
+    color: var(--blancoLetra);
+    font-size: 18px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.textoCuerpo2{
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 50px; 
+    margin-right:50px;
+    text-align: center;
+}
+
+.containerImgBuild, .containerImgBuild2, .containerImgBuildFooter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerImgBuild2{
+    margin-left: 50px;
+}
+
+.imgBuildSW, .imgBuildSW2, .imgBuildSW3{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+}
+
+.icons, .iconsCorrea{
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+
+.redes{
+    max-width: 40px;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+}
+
+
+.imgBuildSW2{
+    height: 200;
+}
+
+.imgBuildSW3{
+    max-width: 200px;
+    height: 170;
+}
+
+.container-negro{
+    background-color: var(--grisFondo);
+    padding-bottom: 35px;
+}
+
+.container-lightGray{
+    padding-bottom: 45px;
+}
+
+.container-lightGray{
+   background-color: var(--grisClaro);
+}
+
+.containerContacto{
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.containerMapa{
+    margin-top: 30px;
+    padding-bottom: 80px;
+}
+
+.containerEnviar{
+    text-align: right;
+}
+
+.campos {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--lilaLogo);
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 10%;
+    color: var(--lilaLogo);
+}
+
+.campos::placeholder{
+    font-size: 18PX;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: var(--lilaFocus);
+}
+
+.campos:focus{
+    outline: none;
+}
+
+.btn-enviar{
+    width: 150px;
+    height: 50px;
+    background-color: var(--lilaLogo);
+    border: var(--lilaLogo);
+    color: var(--blancoLetra);
+}
+
+.btn-enviar:hover{
+    background-color: var(--lilaFocus);
+    color: var(--blancoLetra);
+}
+
+
+
+
+.container-gray{
+    background-color: var(--grisFondo);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.logoFooter{
+    width: 130px;
+    margin-left: 30px;
+}
+
+.derechosReservados, .datosContacto, .navegacionFooter{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: var(--blancoLetra);
+    line-height: 40px;
+    margin-bottom: 0px;
+}
+
+.iconoFooter{
+    max-width: 20px;
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .logoCabecera{
+        width: 70px;
+        margin-left: 30px;
+    }
+
+    .descrip-inicio{
+        font-size: 12px;
+    }
+
+    .contenedorImagen{
+        margin-top: 70px;
+    }
+
+    .posision-caru{
+        margin-top: 55px;
+    }
+
+    a.myanchor:before {
+        display: block;
+        content: " ";
+        margin-top: -70px;
+        height: 42px;
+        visibility: hidden;
+    }
+
+    .tituloNegro, .tituloServicios{
+        font-size: 20px;
+    }
+
+    .imgBuildSW, .imgBuildSW2, .icons {
+        max-width: 200px;
+        width: 100%;
+        height: auto;
+    }
+
+    .textoCuerpo, .textoCuerpo2, .textoCuerpoServicios, .textoContacto{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .containerImgBuild2{
+        margin-left: 0px;
+    }
+
+    .paddingLeft{
+        padding-left: 0px;
+    }
+
+    .containerLogoFooter{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logoFooter{
+        width: 70px;
+        margin-left: 0px;
+
+    }
+
+    .containerImgBuildFooter{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .derechosReservados, .datosContacto, .navegacionFooter{
+        text-align: center
+    }
+
+    .derechosReservados{
+        font-size: 10px;
+    }
+
+    .containerEnviar{
+        text-align: center;
+    }
+
+    .iconsCorrea{
+        height: 160px;
+    }
+
+    .linkRedes{
+        margin-left: 25px;
+    }
+    
+
+}
+
+

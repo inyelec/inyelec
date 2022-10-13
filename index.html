@@ -1,0 +1,320 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.ico" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Inyelec Cars</title>
+</head>
+<body >
+    <!--MENU -->
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top nav-collapse headerNavigation">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="logoCabecera" src="img/logo.png" alt="Logo Inyelec">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse offcanvas navBarLateral offcanvas-end text-bg-dark" style="width: 180px;" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header containerHeaderNav">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body paddingLeft">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item itemsMenu">
+                            <a class="nav-link active" aria-current="page" href="#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item itemsMenu">
+                            <a class="nav-link active" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item itemsMenu">
+                            <a class="nav-link active" href="#contacto">Ubicaci&oacute;n</a>
+                        </li>
+                        <li class="nav-item itemsMenu">
+                            <a class="nav-link active" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Fin MENU-->
+    
+    <!-- CARROUSEL-->
+    <div class="posision-caru">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" style="background-color: #000">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img  class="d-block w-100" style="opacity: 0.5;" src="img/scaneo.png" alt="..." width="50" height="500">
+                    <div class="carousel-caption ">
+                        <h5 class="tituloBanner">SCANEO MULTIMARCAS</h5>
+                        <p class="textoCuerpoServicios">Borrado de fallas y problemas el&eacute;ctricos</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img  class="d-block w-100" style="opacity: 0.5;" src="img/motor.jpg" alt="..." width="50" height="500">
+                    <div class="carousel-caption ">
+                        <h5 class="tituloBanner">SERVICIO ESPECIALIZADO</h5>
+                        <p class="textoCuerpoServicios">Reparaci&oacute;n de tren delantero, frenos y motor</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img  class="d-block w-100" style="opacity: 0.5;" src="img/caja.jpg" alt="..." width="50" height="500">
+                    <div class="carousel-caption ">
+                        <h5 class="tituloBanner">CAJAS AUTOMATICAS</h5>
+                        <p class="textoCuerpoServicios">Reparaci&oacute;n y mantenimiento</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--FIN CARROUSEL-->
+
+    <!-- NOSOTROS-->
+    <div class="container-lightGray">
+        <a class="myanchor" id="nosotros"></a>
+        <div class="containertituloNosotros">
+            <p class="tituloNegro">
+                Nosotros
+            </p>
+        </div>
+        <div class="container">
+            <div class="row marginRight0px align-items-center">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-4 col-sm-6 containerCuerpo align-items-center">
+                    <div class="containerCuerpo">
+                        <p>
+                            <span class="textoCuerpo">Somos profesionales con m&aacute;s de 20 a&ntilde;os de experiencia en el rubro, especialistas en reparaci&oacute;n de Jeep, Chrysler y Dodge</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-sm-6 containerImgBuild">
+                    <img class="imgBuildSW" src="img/foto5.png" alt="No disponible">
+                </div>
+            </div>
+        </div>
+        <div class="container margintop50">
+            <div class="row marginRight0px align-items-center ">
+                <div class="col-lg-5 col-sm-5 containerImgBuild2">
+                    <img class="imgBuildSW2" src="img/foto6.png" alt="No disponible">
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-4 col-sm-5 containerCuerpo align-self-center">
+                    <div class="containerCuerpo">
+                        <p>
+                            <span class="textoCuerpo">Utilizamos las mejores herramientas y equipamiento para brindar el mejor servicio a tu veh&iacute;culo.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container margintop50">
+            <div class="row marginRight0px align-items-center ">
+                <div class="col-lg-5 col-sm-5 ">
+                    <div class="row align-items-center iconosCentrados">
+                        <img class="imgBuildSW3" src="img/honestidad3.png" alt="No disponible">
+                        <div>
+                            <p class="textoCuerpo2">Confianza y calidad avalan nuestro trabajo en los 20 años de profesionalismo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-sm-5 ">
+                    <div class="row iconosCentrados">
+                        <img class="imgBuildSW3" src="img/mecanico3.png" alt="No disponible">
+                        <div>
+                            <p class="textoCuerpo2">Realizamos presupuesto detallado y preciso sobre cada reparaci&oacute;n.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN NOSOTROS-->
+
+    <!-- SERVICIOS-->
+    <div class="container-negro">
+        <a class="myanchorServicios" id="servicios"></a>
+        <div class="containertituloNosotros">
+            <p class="tituloServicios">
+                Servicios
+            </p>
+        </div>
+        <div class="container">
+            <div class="row align-items-start marginRight0px">
+                <div class="col-lg-3 col-sm-2">
+                    <div class="containerImagenesServicios">
+                        <img class="iconsCorrea" src="img/icon12.png" alt="No disponible">
+                    </div>
+                    <p class="textoCuerpoServicios">
+                        Cambio de correa de distribuci&oacute;n con ticket de seguimiento.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-sm-2">
+                    <div class="containerImagenesServicios">
+                        <img class="icons" src="img/icon21.png" alt="No disponible">
+                    </div>
+                    <p class="textoCuerpoServicios">
+                        Control de carga de alternador, cambio y revisi&oacute;n de bater&iacute;a
+                    </p>
+                </div>
+                <div class="col-lg-3 col-sm-2">
+                    <div class="containerImagenesServicios">
+                        <img class="icons" src="img/icon31.png" alt="No disponible">
+                    </div>
+                    <p class="textoCuerpoServicios">
+                        Inyecci&oacute;n electr&oacute;nica, limpieza de inyectores y puesta a punto.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-sm-2 align-items-start">
+                    <div class="containerImagenesServicios">
+                        <img class="icons" src="img/icon4.png" alt="No disponible">
+                    </div>
+                    <p class="textoCuerpoServicios">
+                        Cambio de aceite y lubricantes, cambio de filtros de aire, aceite y combustible.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN SERVICIOS-->
+
+    <!-- CONTACTO-->
+    <div class="container-lightGray">
+        <a class="anchorContacto" id="contacto"></a>
+        <div class="row" style="margin-right: 0px;">
+            <div class="col-lg-7">
+                <div class="containertituloNosotros">
+                    <p class="tituloNegro margintop30">
+                        Ubicaci&oacute;n
+                    </p>
+                </div>
+                <div class="container containerMapa">
+                    <div class="row align-items-start marginRight0px">
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-8 col-sm-3">
+                            <div class="containerCuerpo">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2319.0308049988403!2d-58.3046822797713!3d-34.715146198150464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32deb510e474f%3A0x33f68a76f686722c!2sInyelec%20Cars!5e0!3m2!1ses!2sar!4v1665697729177!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="containertituloNosotros">
+                    <p class="tituloNegro margintop30">
+                        Contacto
+                    </p>
+                </div>
+                <div class="container containerMapa">
+                    <div class="row align-items-start marginRight0px">
+                        <span class="textoCuerpo">Pida su turno por llamada o al Whatsapp:</span>
+                    </div>
+                    <div class="row align-items-start marginRight0px margintop30">
+                        <div class="col-lg-6 col-sm-4">
+                            <div class="containerRedes">
+                                <a class="linkRedes" href="https://wa.me/5491164935224?text=¡Hola!" target="_blank">
+                                    <img class="redes" src="img/whatsapp.png" alt="No disponible" height="60">
+                                    <span class="textoContacto">11-6493-5224</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-start marginRight0px margintop30">
+                        <span class="textoCuerpo">O contactenos por nuestras redes sociales:</span>
+                    </div>
+                    <div class="row align-items-start marginRight0px margintop30">
+                        <div class="col-lg-6 col-sm-4">
+                            <div class="containerRedes">
+                                <a class="linkRedes" href="https://www.facebook.com/inyelec.inyelec.7" target="_blank">
+                                    <img class="redes" src="img/facebook.png" alt="No disponible" height="60">
+                                    <span class="textoContacto">Inyelec Cars</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-start marginRight0px margintop30">
+                        <div class="col-lg-6 col-sm-4">
+                            <div class="containerRedes">
+                                <a class="linkRedes" href="https://www.instagram.com/inyeleccars/" target="_blank">
+                                    <img class="redes" src="img/instagram.png" alt="No disponible" height="60">
+                                    <span class="textoContacto">@inyeleccars</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN CONTACTO-->
+
+    <!-- FOOTER-->
+    <div class="container-gray">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-2 containerLogoFooter">
+                    <a href="index.html">
+                        <img class="logoFooter" src="img/logo.png" alt="No disponible">
+                    </a>
+                </div>
+                <div class="col-lg-4 containerImgBuildFooter">
+                    <p>
+                        <a class="navegacionFooter" href="#nosotros">Nosotros <br> </a>
+                        <a class="navegacionFooter" href="#servicios">Servicios <br> </a>
+                        <a class="navegacionFooter" href="#contacto">Contacto <br> </a>
+                    </p>
+                </div>
+                <div class="col-lg-4 containerImgBuildFooter">
+                    <p class="datosContacto linkRedesFooter">
+                        oremor.mr@gmail.com <br>
+                        <a class="linkRedesFooter" href="https://wa.me/5491164935224?text=¡Hola!" target="_blank">
+                            <img class="iconoFooter" src="img/whatsapp.png" alt="No disponible">
+                            <span class="navegacionFooter linkRedesFooter"> 11-6493-5224</span>
+                        </a>
+                        <br>
+                        <a class="linkRedesFooter" href="https://www.facebook.com/inyelec.inyelec.7" target="_blank">
+                            <img class=" iconoFooter" src="img/facebook.png" alt="No disponible">
+                            <span class="navegacionFooter linkRedesFooter"> Inyelec Cars</span>
+                        </a>
+                        <br>
+                        <a class="linkRedesFooter" href="https://www.instagram.com/inyeleccars/" target="_blank">
+                            <img class="iconoFooter" src="img/instagram.png" alt="No disponible"> 
+                            <span class="navegacionFooter linkRedesFooter"> @inyeleccars</span>
+                        </a>
+                    </p>
+                </div>
+                <hr>
+                <div class="col-lg-12 containerImgBuildFooter">
+                    <p class="derechosReservados">INYELEC © 2022 - All Rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN FOOTER-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e3d7c25997.js" crossorigin="anonymous"></script>
+</body>
+</html>
